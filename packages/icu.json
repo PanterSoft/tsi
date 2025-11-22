@@ -1,19 +1,2062 @@
 {
   "name": "icu",
-  "version": "74.2",
-  "description": "International Components for Unicode",
-  "source": {
-    "type": "tarball",
-    "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
-  },
-  "dependencies": [],
-  "build_dependencies": [],
-  "build_system": "custom",
-  "build_commands": [
-    "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
-    "cd source && make",
-    "cd source && make install"
-  ],
-  "env": {}
+  "versions": [
+    {
+      "version": "release-78.1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-78.1rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2025-05-21/77.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2025-05-01/77.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-77-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-77-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2024-12-16/76.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-76-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-76-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2024-05-16/75.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2024-05-03/75.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-75-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-75-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-74-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-74-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-74-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-09-27",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-09-25",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-09-13",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-08-22",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-08-08",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-07-20",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-07-19",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-73-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2023-05-02/73.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-73-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-04-10",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-04-06",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-73-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2023-03-22a/72.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2023-03-22/72.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-03-15",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-03-13",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2023-03-06/72.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2023-02-24/72.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-02-21",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2023-02-09/72.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2023-02-02",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-12-04",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-12-02",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-72-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-10-11",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-72-rc-cldr-beta3",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-72-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-09-12",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-09-07",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-08-17",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2022-08-17/71.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-08-11",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-08-01",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2022-07-25/71.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2022-07-18/71.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "icu4x/2022-06-30/71.x",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-06-27",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-05-28",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-04-11",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-03-31",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-71-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-03-30",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-71-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-02-23",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-02-22",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2022-02-08",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-70-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2021-10-25",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2021-10-19",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2021-09-29",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-70-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2021-09-15",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2021-08-25",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2021-08-11",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2021-06-15",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-69-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-69-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2021-03-09",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2021-02-17",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-68-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2020-12-03b",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-68-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2020-10-21",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-68-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-68-alpha",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cldr/2020-09-22",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-67-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-67-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-66-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-66-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-66-preview",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-65-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-65-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-64-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-63-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-62-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-61-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-60-3",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-59-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-58-3",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-57-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-56-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-55-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-54-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-53-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-52-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-51-3",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-50-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-4-8-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-64-2-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-64-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-64-rc2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-64-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-63-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-63-rc",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-62-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-61-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-60-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-60-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-59-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-58-2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-57-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-56-1",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    },
+    {
+      "version": "74.2",
+      "description": "International Components for Unicode",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/unicode-org/icu/releases/download/release-74-2/icu4c-74_2-src.tgz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "custom",
+      "build_commands": [
+        "cd source && ./configure --prefix=$TSI_INSTALL_DIR",
+        "cd source && make",
+        "cd source && make install"
+      ],
+      "env": {}
+    }
+  ]
 }
-

@@ -1,18 +1,779 @@
 {
   "name": "msgpack",
-  "version": "6.1.0",
-  "description": "Efficient binary serialization format",
-  "source": {
-    "type": "tarball",
-    "url": "https://github.com/msgpack/msgpack-c/releases/download/c-6.1.0/msgpack-6.1.0.tar.gz"
-  },
-  "dependencies": [],
-  "build_dependencies": ["cmake"],
-  "build_system": "cmake",
-  "cmake_args": [
-    "-DCMAKE_BUILD_TYPE=Release",
-    "-DMSGPACK_BUILD_TESTS=OFF"
-  ],
-  "env": {}
+  "versions": [
+    {
+      "version": "cpp-7.0.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-7.0.0/msgpack-cpp-7.0.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "c-6.1.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-c-6.1.0/msgpack-c-6.1.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "c-6.0.2",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-c-6.0.2/msgpack-c-6.0.2.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-6.1.1",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-6.1.1/msgpack-cpp-6.1.1.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "c-6.0.1",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-c-6.0.1/msgpack-c-6.0.1.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-6.1.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-6.1.0/msgpack-cpp-6.1.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-6.0.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-6.0.0/msgpack-cpp-6.0.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "c-6.0.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-c-6.0.0/msgpack-c-6.0.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-5.0.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-5.0.0/msgpack-cpp-5.0.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "c-5.0.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-c-5.0.0/msgpack-c-5.0.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-4.1.3",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-4.1.3/msgpack-cpp-4.1.3.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-4.1.2",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-4.1.2/msgpack-cpp-4.1.2.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-4.1.1",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-4.1.1/msgpack-cpp-4.1.1.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-4.1.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-4.1.0/msgpack-cpp-4.1.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-4.0.3",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-4.0.3/msgpack-cpp-4.0.3.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "c-4.0.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-c-4.0.0/msgpack-c-4.0.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-4.0.2",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-4.0.2/msgpack-cpp-4.0.2.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-4.0.1",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-4.0.1/msgpack-cpp-4.0.1.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-4.0.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-4.0.0/msgpack-cpp-4.0.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-3.3.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-3.3.0/msgpack-cpp-3.3.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-3.2.1",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-3.2.1/msgpack-cpp-3.2.1.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-3.2.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-3.2.0/msgpack-cpp-3.2.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-3.1.1",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-3.1.1/msgpack-cpp-3.1.1.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-3.1.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-3.1.0/msgpack-cpp-3.1.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-3.0.1",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-3.0.1/msgpack-cpp-3.0.1.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-3.0.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-3.0.0/msgpack-cpp-3.0.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-2.1.5",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-2.1.5/msgpack-cpp-2.1.5.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-2.1.3",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-2.1.3/msgpack-cpp-2.1.3.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-2.1.2",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-2.1.2/msgpack-cpp-2.1.2.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-2.1.1",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-2.1.1/msgpack-cpp-2.1.1.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-2.1.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-2.1.0/msgpack-cpp-2.1.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-2.0.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-2.0.0/msgpack-cpp-2.0.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-1.4.2",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-1.4.2/msgpack-cpp-1.4.2.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-1.4.1",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-1.4.1/msgpack-cpp-1.4.1.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-1.4.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-1.4.0/msgpack-cpp-1.4.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-1.3.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-1.3.0/msgpack-cpp-1.3.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-1.2.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-1.2.0/msgpack-cpp-1.2.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-1.1.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-1.1.0/msgpack-cpp-1.1.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-1.0.1",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-1.0.1/msgpack-cpp-1.0.1.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-1.0.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-1.0.0/msgpack-cpp-1.0.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-0.5.9",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-0.5.9/msgpack-cpp-0.5.9.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "cpp-0.5.8",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-cpp-0.5.8/msgpack-cpp-0.5.8.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    },
+    {
+      "version": "6.1.0",
+      "description": "Efficient binary serialization format",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/msgpack/msgpack-c/releases/download/c-6.1.0/msgpack-6.1.0.tar.gz"
+      },
+      "dependencies": [],
+      "build_dependencies": [
+        "cmake"
+      ],
+      "build_system": "cmake",
+      "cmake_args": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DMSGPACK_BUILD_TESTS=OFF"
+      ],
+      "env": {}
+    }
+  ]
 }
-

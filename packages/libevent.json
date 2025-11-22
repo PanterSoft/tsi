@@ -1,17 +1,404 @@
 {
   "name": "libevent",
-  "version": "2.1.12",
-  "description": "Event notification library",
-  "source": {
-    "type": "tarball",
-    "url": "https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz"
-  },
-  "dependencies": ["openssl"],
-  "build_dependencies": ["pkg-config"],
-  "build_system": "autotools",
-  "configure_args": [
-    "--enable-openssl"
-  ],
-  "env": {}
+  "versions": [
+    {
+      "version": "release-2.2.1-alpha",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.2.1-alpha-stable/libevent-release-2.2.1-alpha-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.1.12-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.1.12-stable-stable/libevent-release-2.1.12-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.1.11-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.1.11-stable-stable/libevent-release-2.1.11-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.1.10-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.1.10-stable-stable/libevent-release-2.1.10-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.1.9-beta",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.1.9-beta-stable/libevent-release-2.1.9-beta-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.0.23-beta",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.0.23-beta-stable/libevent-release-2.0.23-beta-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.1.8-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.1.8-stable-stable/libevent-release-2.1.8-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.1.7-rc",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.1.7-rc-stable/libevent-release-2.1.7-rc-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.1.6-beta",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.1.6-beta-stable/libevent-release-2.1.6-beta-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.0.22-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.0.22-stable-stable/libevent-release-2.0.22-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-1.4.15-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-1.4.15-stable-stable/libevent-release-1.4.15-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.1.5-beta",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.1.5-beta-stable/libevent-release-2.1.5-beta-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.0.21-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.0.21-stable-stable/libevent-release-2.0.21-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.0.20-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.0.20-stable-stable/libevent-release-2.0.20-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.0.19-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.0.19-stable-stable/libevent-release-2.0.19-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.0.18-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.0.18-stable-stable/libevent-release-2.0.18-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.0.17-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.0.17-stable-stable/libevent-release-2.0.17-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.0.16-stable",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.0.16-stable-stable/libevent-release-2.0.16-stable-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.0.5-beta",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.0.5-beta-stable/libevent-release-2.0.5-beta-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "release-2.0.3-alpha",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-release-2.0.3-alpha-stable/libevent-release-2.0.3-alpha-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    },
+    {
+      "version": "2.1.12",
+      "description": "Event notification library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz"
+      },
+      "dependencies": [
+        "openssl"
+      ],
+      "build_dependencies": [
+        "pkg-config"
+      ],
+      "build_system": "autotools",
+      "configure_args": [
+        "--enable-openssl"
+      ],
+      "env": {}
+    }
+  ]
 }
-

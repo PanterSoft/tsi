@@ -1,15 +1,603 @@
 {
   "name": "expat",
-  "version": "2.6.2",
-  "description": "XML parser library",
-  "source": {
-    "type": "tarball",
-    "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-2.6.2.tar.xz"
-  },
-  "dependencies": [],
-  "build_dependencies": [],
-  "build_system": "autotools",
-  "configure_args": [],
-  "env": {}
+  "versions": [
+    {
+      "version": "R_2_7_3",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_7_3.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_7_2",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_7_2.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_7_1",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_7_1.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_7_0",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_7_0.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_6_4",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_6_4.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_6_3",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_6_3.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_6_2",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_6_2.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_6_1",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_6_1.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_6_0",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_6_0.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_5_0",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_5_0.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_4_9",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_4_9.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_4_8",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_4_8.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_4_7",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_4_7.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_4_6",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_4_6.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_4_5",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_4_5.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_4_4",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_4_4.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_4_3",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_4_3.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_4_2",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_4_2.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_4_1",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_4_1.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_4_0",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_4_0.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_3_0",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_3_0.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_2_10",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_2_10.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_2_9",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_2_9.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_2_8",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_2_8.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_2_7",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_2_7.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_2_6",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_2_6.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_2_5",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_2_5.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_2_4",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_2_4.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_2_3",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_2_3.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_2_2",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_2_2.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_2_1",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_2_1.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_2_0",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_2_0.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_1_1",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_1_1.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_1_0",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_1_0.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_0_1",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_0_1.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_2_0_0",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_2_0_0.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_1_95_8",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_1_95_8.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_1_95_7",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_1_95_7.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_1_95_6",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_1_95_6.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_1_95_5",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_1_95_5.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_1_95_4",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_1_95_4.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_1_95_3",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_1_95_3.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_1_95_2",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_1_95_2.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_1_95_1",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_1_95_1.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "R_1_95_0",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-R_1_95_0.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    },
+    {
+      "version": "2.6.2",
+      "description": "XML parser library",
+      "source": {
+        "type": "tarball",
+        "url": "https://github.com/libexpat/libexpat/releases/download/R_2_6_2/expat-2.6.2.tar.xz"
+      },
+      "dependencies": [],
+      "build_dependencies": [],
+      "build_system": "autotools",
+      "configure_args": [],
+      "env": {}
+    }
+  ]
 }
-
