@@ -21,17 +21,19 @@
       ],
       "build_system": "custom",
       "build_commands": [
-        "mkdir -p ros2_ws/src/ros2",
-        "tar -c --exclude=ros2_ws . | tar -x -C ros2_ws/src/ros2/",
+        "mkdir -p ros2_ws/src",
+        "cp -r . ros2_ws/src/ros2",
         "cd ros2_ws/src/ros2",
-        "if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install vcstool colcon-common-extensions; else python3 -m pip install --user vcstool colcon-common-extensions; fi",
+        "if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install vcstool colcon-common-extensions rosdep; else python3 -m pip install --user vcstool colcon-common-extensions rosdep; fi",
+        "if [ -z \"$VIRTUAL_ENV\" ]; then export PATH=\"$HOME/.local/bin:$PATH\"; fi",
+        "mkdir -p $HOME/.ros/rosdep/sources.list.d",
+        "if [ ! -f $HOME/.ros/rosdep/sources.list.d/20-default.list ] && [ ! -f /etc/ros/rosdep/sources.list.d/20-default.list ]; then echo 'yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/base.yaml' > $HOME/.ros/rosdep/sources.list.d/20-default.list && echo 'yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/python.yaml' >> $HOME/.ros/rosdep/sources.list.d/20-default.list && echo 'yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/ruby.yaml' >> $HOME/.ros/rosdep/sources.list.d/20-default.list; fi",
+        "rosdep update || true",
         "vcs import < ros2.repos",
         "cd ../..",
-        "if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install -r ros2_ws/src/ros2/ros2.repos 2>/dev/null || true; else python3 -m pip install --user -r ros2_ws/src/ros2/ros2.repos 2>/dev/null || true; fi",
-        "rosdep update 2>/dev/null || true",
-        "rosdep install --from-paths ros2_ws/src --ignore-src -r -y 2>/dev/null || (if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install setuptools wheel; else python3 -m pip install --user setuptools wheel; fi)",
+        "rosdep install --from-paths src --ignore-src -r -y || true",
         "cd ros2_ws",
-        "colcon build --symlink-install --cmake-args -DCMAKE_INSTALL_PREFIX=$TSI_INSTALL_DIR --install-base $TSI_INSTALL_DIR || (if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install colcon-common-extensions; else python3 -m pip install --user colcon-common-extensions; fi) && colcon build --symlink-install --cmake-args -DCMAKE_INSTALL_PREFIX=$TSI_INSTALL_DIR --install-base $TSI_INSTALL_DIR"
+        "colcon build --symlink-install --cmake-args -DCMAKE_INSTALL_PREFIX=$TSI_INSTALL_DIR --install-base $TSI_INSTALL_DIR"
       ],
       "env": {
         "ROS_DOMAIN_ID": "0"
@@ -57,17 +59,19 @@
       ],
       "build_system": "custom",
       "build_commands": [
-        "mkdir -p ros2_ws/src/ros2",
-        "tar -c --exclude=ros2_ws . | tar -x -C ros2_ws/src/ros2/",
+        "mkdir -p ros2_ws/src",
+        "cp -r . ros2_ws/src/ros2",
         "cd ros2_ws/src/ros2",
-        "if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install vcstool colcon-common-extensions; else python3 -m pip install --user vcstool colcon-common-extensions; fi",
+        "if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install vcstool colcon-common-extensions rosdep; else python3 -m pip install --user vcstool colcon-common-extensions rosdep; fi",
+        "if [ -z \"$VIRTUAL_ENV\" ]; then export PATH=\"$HOME/.local/bin:$PATH\"; fi",
+        "mkdir -p $HOME/.ros/rosdep/sources.list.d",
+        "if [ ! -f $HOME/.ros/rosdep/sources.list.d/20-default.list ] && [ ! -f /etc/ros/rosdep/sources.list.d/20-default.list ]; then echo 'yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/base.yaml' > $HOME/.ros/rosdep/sources.list.d/20-default.list && echo 'yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/python.yaml' >> $HOME/.ros/rosdep/sources.list.d/20-default.list && echo 'yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/ruby.yaml' >> $HOME/.ros/rosdep/sources.list.d/20-default.list; fi",
+        "rosdep update || true",
         "vcs import < ros2.repos",
         "cd ../..",
-        "if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install -r ros2_ws/src/ros2/ros2.repos 2>/dev/null || true; else python3 -m pip install --user -r ros2_ws/src/ros2/ros2.repos 2>/dev/null || true; fi",
-        "rosdep update 2>/dev/null || true",
-        "rosdep install --from-paths ros2_ws/src --ignore-src -r -y 2>/dev/null || (if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install setuptools wheel; else python3 -m pip install --user setuptools wheel; fi)",
+        "rosdep install --from-paths src --ignore-src -r -y || true",
         "cd ros2_ws",
-        "colcon build --symlink-install --cmake-args -DCMAKE_INSTALL_PREFIX=$TSI_INSTALL_DIR --install-base $TSI_INSTALL_DIR || (if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install colcon-common-extensions; else python3 -m pip install --user colcon-common-extensions; fi) && colcon build --symlink-install --cmake-args -DCMAKE_INSTALL_PREFIX=$TSI_INSTALL_DIR --install-base $TSI_INSTALL_DIR"
+        "colcon build --symlink-install --cmake-args -DCMAKE_INSTALL_PREFIX=$TSI_INSTALL_DIR --install-base $TSI_INSTALL_DIR"
       ],
       "env": {
         "ROS_DOMAIN_ID": "0"
@@ -93,17 +97,19 @@
       ],
       "build_system": "custom",
       "build_commands": [
-        "mkdir -p ros2_ws/src/ros2",
-        "tar -c --exclude=ros2_ws . | tar -x -C ros2_ws/src/ros2/",
+        "mkdir -p ros2_ws/src",
+        "cp -r . ros2_ws/src/ros2",
         "cd ros2_ws/src/ros2",
-        "if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install vcstool colcon-common-extensions; else python3 -m pip install --user vcstool colcon-common-extensions; fi",
+        "if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install vcstool colcon-common-extensions rosdep; else python3 -m pip install --user vcstool colcon-common-extensions rosdep; fi",
+        "if [ -z \"$VIRTUAL_ENV\" ]; then export PATH=\"$HOME/.local/bin:$PATH\"; fi",
+        "mkdir -p $HOME/.ros/rosdep/sources.list.d",
+        "if [ ! -f $HOME/.ros/rosdep/sources.list.d/20-default.list ] && [ ! -f /etc/ros/rosdep/sources.list.d/20-default.list ]; then echo 'yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/base.yaml' > $HOME/.ros/rosdep/sources.list.d/20-default.list && echo 'yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/python.yaml' >> $HOME/.ros/rosdep/sources.list.d/20-default.list && echo 'yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/ruby.yaml' >> $HOME/.ros/rosdep/sources.list.d/20-default.list; fi",
+        "rosdep update || true",
         "vcs import < ros2.repos",
         "cd ../..",
-        "if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install -r ros2_ws/src/ros2/ros2.repos 2>/dev/null || true; else python3 -m pip install --user -r ros2_ws/src/ros2/ros2.repos 2>/dev/null || true; fi",
-        "rosdep update 2>/dev/null || true",
-        "rosdep install --from-paths ros2_ws/src --ignore-src -r -y 2>/dev/null || (if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install setuptools wheel; else python3 -m pip install --user setuptools wheel; fi)",
+        "rosdep install --from-paths src --ignore-src -r -y || true",
         "cd ros2_ws",
-        "colcon build --symlink-install --cmake-args -DCMAKE_INSTALL_PREFIX=$TSI_INSTALL_DIR --install-base $TSI_INSTALL_DIR || (if [ -n \"$VIRTUAL_ENV\" ]; then python3 -m pip install colcon-common-extensions; else python3 -m pip install --user colcon-common-extensions; fi) && colcon build --symlink-install --cmake-args -DCMAKE_INSTALL_PREFIX=$TSI_INSTALL_DIR --install-base $TSI_INSTALL_DIR"
+        "colcon build --symlink-install --cmake-args -DCMAKE_INSTALL_PREFIX=$TSI_INSTALL_DIR --install-base $TSI_INSTALL_DIR"
       ],
       "env": {
         "ROS_DOMAIN_ID": "0"
