@@ -618,73 +618,6 @@ typedef struct {
     bool display_started;  // Track if we've started displaying
 } OutputBuffer;
 
-#define OUTPUT_WINDOW_WIDTH 70
-
-static inline void output_window_print_header(const char *title) {
-    bool color = supports_colors();
-    const char *label = (title && *title) ? title : "Command output";
-    char title_buf[OUTPUT_LINE_LENGTH];
-    strncpy(title_buf, label, sizeof(title_buf) - 1);
-    title_buf[sizeof(title_buf) - 1] = '\0';
-    size_t len = strlen(title_buf);
-    if (len > OUTPUT_WINDOW_WIDTH - 10) {
-        title_buf[OUTPUT_WINDOW_WIDTH - 10] = '\0';
-        len = strlen(title_buf);
-    }
-    int dash_len = OUTPUT_WINDOW_WIDTH - (int)len - 2;
-    if (dash_len < 2) dash_len = 2;
-    if (color) {
-        printf("%s┌ %s%s%s ", COLOR_DIM, COLOR_INFO, title_buf, COLOR_RESET);
-        for (int i = 0; i < dash_len; i++) printf("─");
-        printf("┐%s\n", COLOR_DIM);
-        printf("%s", COLOR_RESET);
-    } else {
-        printf("/ %s ", title_buf);
-        for (int i = 0; i < dash_len; i++) printf("-");
-        printf("\\\n");
-    }
-}
-
-static inline void output_window_print_line(const char *content) {
-    bool color = supports_colors();
-    char display_line[OUTPUT_WINDOW_WIDTH + 1];
-    size_t width = OUTPUT_WINDOW_WIDTH - 2;
-    if (width >= sizeof(display_line)) width = sizeof(display_line) - 1;
-
-    if (content && *content) {
-        strncpy(display_line, content, width);
-        display_line[width] = '\0';
-    } else {
-        display_line[0] = '\0';
-    }
-
-    size_t text_len = strlen(display_line);
-    for (size_t i = text_len; i < width; i++) {
-        display_line[i] = ' ';
-    }
-    display_line[width] = '\0';
-
-    if (color) {
-        printf("%s│ %s%s%s %s│%s\n",
-               COLOR_DIM, COLOR_RESET, display_line, COLOR_RESET, COLOR_DIM, COLOR_RESET);
-    } else {
-        printf("| %s |\n", display_line);
-    }
-}
-
-static inline void output_window_print_footer(void) {
-    bool color = supports_colors();
-    if (color) {
-        printf("%s└", COLOR_DIM);
-        for (int i = 0; i < OUTPUT_WINDOW_WIDTH; i++) printf("─");
-        printf("┘%s\n", COLOR_RESET);
-    } else {
-        printf("\\");
-        for (int i = 0; i < OUTPUT_WINDOW_WIDTH; i++) printf("-");
-        printf("/\n");
-    }
-}
-
 // Initialize output buffer
 static inline void output_buffer_init(OutputBuffer *buf) {
     buf->line_count = 0;
@@ -724,12 +657,12 @@ static inline void output_buffer_add(OutputBuffer *buf, const char *line) {
 static inline void output_buffer_display(OutputBuffer *buf) {
     if (!buf || !is_tty()) return;
 
-    printf("\033[%dA", OUTPUT_BUFFER_LINES + 1);
+    printf("\033[%dA", OUTPUT_BUFFER_LINES);
 
     for (int i = 0; i < OUTPUT_BUFFER_LINES; i++) {
         int idx;
         if (buf->line_count == 0) {
-            output_window_print_line("");
+            printf("\r\033[2K\n");
             continue;
         }
 
@@ -743,24 +676,27 @@ static inline void output_buffer_display(OutputBuffer *buf) {
             char display_line[OUTPUT_LINE_LENGTH];
             strncpy(display_line, buf->lines[idx], sizeof(display_line) - 1);
             display_line[sizeof(display_line) - 1] = '\0';
-            output_window_print_line(display_line);
+            if (supports_colors()) {
+                printf("\r\033[2K  %s%s%s\n", COLOR_DIM, display_line, COLOR_RESET);
+            } else {
+                printf("\r\033[2K  %s\n", display_line);
+            }
         } else {
-            output_window_print_line("");
+            printf("\r\033[2K\n");
         }
     }
-    output_window_print_footer();
     fflush(stdout);
     buf->display_started = true;
 }
 
 // Start output capture area with titled window
 static inline void output_capture_start(const char *title) {
+    (void)title;
     if (!is_tty()) return;
-    output_window_print_header(title);
     for (int i = 0; i < OUTPUT_BUFFER_LINES; i++) {
-        output_window_print_line("");
+        printf("\n");
     }
-    output_window_print_footer();
+    printf("\033[%dA", OUTPUT_BUFFER_LINES);
 }
 
 // End output capture area (clear output lines, keep status line)
@@ -768,16 +704,16 @@ static inline void output_capture_end(OutputBuffer *buf) {
     if (!buf || !is_tty()) return;
     if (!buf->display_started) {
         // Still clear the placeholder window
-        printf("\033[%dA", OUTPUT_BUFFER_LINES + 2);
-        for (int i = 0; i < OUTPUT_BUFFER_LINES + 2; i++) {
+        printf("\033[%dA", OUTPUT_BUFFER_LINES);
+        for (int i = 0; i < OUTPUT_BUFFER_LINES; i++) {
             printf("\r\033[2K\n");
         }
         buf->display_started = false;
         return;
     }
 
-    printf("\033[%dA", OUTPUT_BUFFER_LINES + 2);
-    for (int i = 0; i < OUTPUT_BUFFER_LINES + 2; i++) {
+    printf("\033[%dA", OUTPUT_BUFFER_LINES);
+    for (int i = 0; i < OUTPUT_BUFFER_LINES; i++) {
         printf("\r\033[2K\n");
     }
     buf->display_started = false;
